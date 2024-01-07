@@ -55,7 +55,6 @@ public class TestSecuritySetup {
         }
     }
 
-
     public static void setUpSecurity(QuarkusTestMethodContext context) {
         try {
             Optional<AnnotationContainer<CustomTestSecurity>> annotationContainerOptional = getAnnotationContainer(context);
